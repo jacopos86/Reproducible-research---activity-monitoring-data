@@ -247,13 +247,13 @@ p2 <- ggplot(wend_plt, aes(x=interval, y=steps)) + geom_line() + ggtitle("week e
 Plotting the figures
 
 ```r
-p1
+plot(p1)
 ```
 
 ![](Assignment1_files/figure-html/unnamed-chunk-19-1.png)<!-- -->
 
 ```r
-p2
+plot(p2)
 ```
 
 ![](Assignment1_files/figure-html/unnamed-chunk-19-2.png)<!-- -->
